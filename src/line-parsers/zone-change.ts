@@ -33,6 +33,10 @@ export class ZoneChangeLineParser extends AbstractLineParser {
 
 	eventName = 'zone-change' as const;
 
+	data(parts: string[]): object {
+		return formatParts(parts);
+	}
+
 	lineMatched(parts: string[], gameState: GameState): void {
 		const data = formatParts(parts);
 

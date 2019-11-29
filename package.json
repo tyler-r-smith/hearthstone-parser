@@ -1,5 +1,5 @@
 {
-  "name": "hearthstone-parser",
+  "name": "hearthstone-parser-local",
   "version": "0.0.0-development",
   "description": "This simple module monitors the Hearthstone log file and emits events based on important events from the log.",
   "main": "dist/index.js",
